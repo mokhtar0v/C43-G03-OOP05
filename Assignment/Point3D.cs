@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Session5_OOP
+namespace Assignment
 {
     internal class Point3D : ICloneable, IComparable<Point3D>
     {
 
-        int x {  get; set; }
+        int x { get; set; }
         int y { get; set; }
         int z { get; set; }
         public Point3D(int x, int y, int z)

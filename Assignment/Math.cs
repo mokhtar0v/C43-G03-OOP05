@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Session5_OOP
+namespace Assignment
 {
     abstract class Math
     {
