@@ -1,4 +1,5 @@
 ﻿using Session5_OOP.Abstraction;
+using Session5_OOP.Static___Constant;
 
 namespace Session5_OOP
 {
@@ -36,6 +37,11 @@ namespace Session5_OOP
             Console.WriteLine($"Perimeter of Rectangle = {RectPeri}");
             Console.WriteLine();
             #endregion
+
+            #region Static and Constant
+            #endregion
+
+
         }
     }
 }
