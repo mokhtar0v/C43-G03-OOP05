@@ -1,10 +1,15 @@
 ﻿using Session5_OOP.Abstraction;
+using Session5_OOP.Sealed;
 using Session5_OOP.Static___Constant;
 
 namespace Session5_OOP
 {
     internal class Program
     {
+        static void CalcPaymentl(PaymentProcessor pro)
+        {
+            pro.ProcessPayment(100);
+        }
         static void Main(string[] args)
         {
             #region Abstraction
@@ -41,7 +46,10 @@ namespace Session5_OOP
             #region Static and Constant
             #endregion
 
-
+            #region Sealed
+            ImmutableString str = new ImmutableString("Ahmed");
+            str = new ImmutableString("Ali Ali");
+            #endregion
         }
     }
 }
